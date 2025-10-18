@@ -1,0 +1,27 @@
+<%- include('../partials/header'); %>
+
+<main class="mainSparkle" id="main">
+    <h1 class="text-center">Sparkling Wine List</h1>
+    <section class="section container d-flex flex-wrap" id="section">
+        <% data.forEach(sparkling => { %>
+            <div class="col-4">
+                <div>
+                    <figure class="sparkleBorder">
+                        <img src="<%= sparkling.image %>" alt="image of <%= sparkling.wine %>" class="mx-auto d-block">
+                    </figure>
+                </div>
+                <div>
+                    <ul class="sparkleWine">
+                        <li><strong>Winery:</strong> <%= sparkling.winery %></li>
+                        <li><strong>Wine Name:</strong> <%= sparkling.wine %></li>
+                        <li><strong>Rating:</strong> <%= sparkling.rating.average %></li>
+                        <li><strong>Reviews:</strong> <%= sparkling.rating.reviews %> <</li>
+                        <li><strong>Location:</strong><%= sparkling.location %></li>
+                    </ul>
+                </div>
+            </div>
+       <% }) %>
+    </section>
+</main>
+
+<%- include('../partials/footer'); %>

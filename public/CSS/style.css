@@ -1,0 +1,139 @@
+/*? Main/Header  */
+/* #region */
+.mainBody {
+    background-color: black;
+    color: aquamarine;
+}
+
+.headerMain {
+    list-style-type: none;
+}
+
+.navButton {
+    font-family: "Amarante", serif;
+    font-size: xxx-large;
+    &:hover{
+        color: rgb(137, 34, 34)
+    };
+    text-decoration: none;
+}
+
+
+/* #endregion */
+
+/*! Dessert Wines  */
+/* #region */
+.mainDessert {
+    background-color: black;
+    color: rgb(133, 82, 148);
+}
+
+.dessertWine {
+    /* border: 3px solid white; */
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    /* width: 75%; */
+}
+
+.dessertBorder {
+    background-color: rgba(44, 13, 72, 0.509);
+    border: 5px solid rgba(50, 13, 90, 0.756);
+    margin: 3px;
+}
+/* #endregion */
+
+/*! Red Wines  */
+/* #region */
+.mainRed {
+    background-color: black;
+    color: rgb(197, 15, 15);
+}
+
+.redImage {
+    width: 100px;
+    height: 300px;
+}
+
+.redWine {
+    /* border: 3px solid white; */
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    /* width: 75%; */
+}
+
+.redBorder {
+    background-color: rgba(115, 28, 7, 0.509);
+    border: 5px solid rgba(171, 41, 41, 0.756);
+    margin: 3px;
+}
+/* #endregion */
+
+/*! Rose Wines  */
+/* #region */
+.mainRose {
+    background-color: black;
+    color: rgb(237, 171, 153);
+}
+.roseWine {
+    /* border: 3px solid white; */
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    /* width: 75%; */
+}
+
+.roseBorder {
+    background-color: rgba(237, 171, 153, 0.427);
+    border: 5px solid rgba(224, 145, 111, 0.756);
+    margin: 3px;
+}
+/* #endregion */
+
+/*! Sparkling Wines  */
+/* #region */
+.mainSparkle {
+    background-color: black;
+    color: rgb(199, 197, 29);
+}
+.sparkleWine {
+    /* border: 3px solid white; */
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    /* width: 75%; */
+}
+
+.sparkleBorder {
+    background-color: rgba(33, 61, 61, 0.427);
+    border: 5px solid rgba(252, 248, 34, 0.507);
+    margin: 3px;
+}
+/* #endregion */
+
+/*! White Wines  */
+/* #region */
+.mainWhite {
+    background-color: black;
+    color: whitesmoke;
+}
+.whiteWine {
+    /* border: 3px solid white; */
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    /* width: 75%; */
+}
+
+.whitesBorder {
+    border: 5px solid white;
+    margin: 3px;
+}
+/* #endregion*/
+
+/*? footer  */
+footer {
+    background-color: black;
+    color: greenyellow;
+}

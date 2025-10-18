@@ -1,0 +1,27 @@
+<%- include('../partials/header'); %>
+
+<main class="mainRed" id="main">
+    <h1 class="text-center">Red Wine List</h1>
+    <section class="section container d-flex flex-wrap" id="section">
+        <% data.forEach(reds => { %>
+            <div class="col-4">
+                <div>
+                    <figure class="redBorder">
+                        <img src="<%= reds.image %>" alt="image of <%= reds.wine %>" class="redImage mx-auto d-block">
+                    </figure>
+                </div>
+                <div>
+                    <ul class="redWine">
+                        <li><strong>Winery:</strong><%= reds.winery %></li>
+                        <li><strong>Wine Name:</strong><%= reds.wine %></li>
+                        <li><strong>Rating:</strong><%= reds.rating.average %></li>
+                        <li><strong>Reviews:</strong><%= reds.rating.reviews %> <</li>
+                        <li><strong>Location:</strong><%= reds.location %></li>
+                    </ul>
+                </div>
+            </div>
+       <% }) %>
+    </section>
+</main>
+
+<%- include('../partials/footer'); %>
